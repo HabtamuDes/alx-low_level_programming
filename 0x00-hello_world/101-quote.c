@@ -1,4 +1,3 @@
-#include <studio.h>
 #include<unistd.h>
 /**
  * main-entry point 
