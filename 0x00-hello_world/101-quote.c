@@ -1,12 +1,14 @@
-#include <unistd.h>
-
+#include <studio.h>
+#include<unistd.h>
 /**
- * main - Entry point
- *
- * Return: 0 Alwayes zero (succcess)
+ * main-entry point 
+ * Return:1
+ * 
  */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-return (1);
+	char ch[]="and that piece of art is useful\" - Dora Korpar, 201-10-19\n";
+	write(2, ch, sizeof(ch));
+	return (1);
+
 }
