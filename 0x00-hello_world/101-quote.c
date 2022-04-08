@@ -1,7 +1,8 @@
 #include <unistd.h>
-/*
- * main- Entry point
- * Return:0 Alwayes Zero (Success)
+/**
+ * main - Entry point
+ *
+ * Return: 0 Alwayes zero (succcess)
  */
 int main(void)
 {
